@@ -1,5 +1,0 @@
-﻿Flask
-gunicorn
-flask_login
-flask_sqlalchemy
-mysql-connector-python
