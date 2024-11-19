@@ -219,12 +219,12 @@ def finalizar_compra():
         return redirect(url_for('home'))
 
 
-@app.route('/logout', methods=['GET', 'POST'])
-@login_required
-def logout():
-    logout_user()  # Realiza o logout
-    flash('Você foi desconectado com sucesso!', 'success')
-    return redirect(url_for('home'))
+# @app.route('/logout', methods=['GET', 'POST'])
+# @login_required
+# def logout():
+#     logout_user()  # Realiza o logout
+#     flash('Você foi desconectado com sucesso!', 'success')
+#     return redirect(url_for('home'))
 
 
 @app.route('/logout', methods=['GET', 'POST']) 
